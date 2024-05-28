@@ -11036,8 +11036,6 @@ html::-webkit-scrollbar-track {
     margin-bottom: 12px;
 }
 .jolie-flowers .footer-info-row {
-    margin-right: -30px;
-    margin-left: -30px;
     justify-content: center;
 }
 .jolie-flowers .footer-info-block {
@@ -11056,6 +11054,9 @@ html::-webkit-scrollbar-track {
     }
     .jolie-flowers .footer-info-block:nth-child(odd) {
         border-left: none;
+    }
+    .jolie-flowers .footer-info-row {
+        margin-left: 50px;
     }
 }
 @media (min-width: 992px) {
