@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML Template For Your Flower Boutique</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content='width=device-width, initial-scale=1, width=device-width'>
+  <meta name="description" content="Responsive Bootstrap 4 Template For Your Flower Shop">
+  <meta name="keywords" content="flower, shop, ecommerce, florist, bouquet, boutique, online, store, bootstrap, responsive, decoration, bouquet shop, decoration shop, flower boutique, flower shop, flower store, flowers">
+
+  <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
+  <!-- <link rel="stylesheet" href="styles.min.css"> -->
+  <link rel="stylesheet" href="styles.css">
+
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body class="jolie-flowers">
+
+<div class="loading-screen" id="loadingScreen">
+  <div class="loader">Loading...</div>
+</div>
+
+<nav class="navbar navbar-expand-md top-nav">
+  <div class="container">
+    <!-- Left Side Nav Items -->
+    <div class="nav-col">
+
+      <!-- Navbar toggler. Shown for mobile devices (https://getbootstrap.com/docs/4.0/components/navbar/#toggler) -->
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#topNav"
+      aria-controls="topNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      >
+        <ion-icon name="menu"></ion-icon>
+      </button>
+
+      <div class="collapse navbar-collapse" id="topNav">
+        <div>
+          <!-- Mobile Nav Close Icon -->
+          <a href="#" class="close-navbar-mobile" data-toggle="collapse" data-target="#topNav">
+            <ion-icon name="md-close"></ion-icon>
+          </a>
+
+          <!-- Desctop Nav -->
+          <ul class="nav-list d-none d-md-flex">
+            <li class="d-none d-lg-block">
+              <a href="index.html"><span class="underline-hover">Home</span></a>
+            </li>
+            <li>
+              <a href="shop.html"><span class="underline-hover">Shop</span></a>
+            </li>
+            <li class="dropdown">
+              <a href="#" 
+                class="dropdown-toggle" 
+                id="navOtherPages" 
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                ><span class="underline-hover">Pages</span></a>
+    
+              <div class="dropdown-menu subnav" aria-labelledby="navOtherPages">
+                <a class="dropdown-item" href="index.html"><span class="underline-hover">Home</span></a>
+                <a class="dropdown-item" href="shop.html"><span class="underline-hover">Shop</span></a>
+                <a class="dropdown-item" href="product.html"><span class="underline-hover">Product</span></a>
+                <!-- <a class="dropdown-item" href="cart.html"><span class="underline-hover">Cart</span></a> -->
+                <!-- <a class="dropdown-item" href="cart-empty.html"><span class="underline-hover">Empty Cart</span></a> -->
+                <a class="dropdown-item" href="contacts.html"><span class="underline-hover">Contacts</span></a>
+                <a class="dropdown-item" href="info.html"><span class="underline-hover">Information</span></a>
+              </div>
+            </li>
+          </ul>
+    
+          <!-- Mobile Nav -->
+          <div class="d-md-none mobile-nav-block">
+            <ul class="nav-list-mobile">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="product.html">Product</a></li>
+              <!-- <li><a href="cart.html">Cart</a></li> -->
+              <!-- <li><a href="cart-empty.html">Empty Cart</a></li> -->
+              <li><a href="contacts.html">Contacts</a></li>
+              <li><a href="info.html">Information</a></li>
+            </ul>
+            <div class="phone-info-mobile"><ion-icon name="md-call"></ion-icon>1-234-567-890</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Logo -->
+    <a class="nav-logo" href="./">Jolie Flowers</a>
+
+    <!-- Right Side Nav Items -->
+    <div class="nav-col">
+      <ul class="nav-list nav-list-right">
+        <li class="d-none d-lg-block">
+          <a href="#" id="getDiscountLink"><span class="underline-hover">Get 10% Off</span></a>
+        </li>
+        <li class="d-none d-md-block">
+          <a href="#" id="getPhoneNumber"><ion-icon name="md-call"></ion-icon></a>
+        </li>
+        <li class="cart-nav-item">
+          <a href="cart.html">
+            <ion-icon name="ios-cart"></ion-icon>
+            <span class="cart-items-number">3</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- home page content-->
+<section class="top-banner">
+  <div class="container">
+    <div class="top-banner-text">
+      <img class="bg-img" src="img/top-banner.png" alt="">
+      <div>
+        <!-- Desctop and Tablet -->
+        <p class="d-none d-sm-block" data-aos="fade-up" data-aos-duration="700">Send <span>gorgeous flowers</span></p>
+        <p class="d-none d-sm-block" data-aos="fade-up" data-aos-delay="700" data-aos-duration="700">and create long lasting<br>happy memories</p>
+
+        <!-- Mobile-->
+        <p class="d-sm-none" data-aos="fade-up" data-aos-duration="700">Send <span>gorgeous flowers</span> and create long lasting happy memories</p>
+      </div>
+    </div> 
+  </div>
+</section>
+
+<section class="content-block block-with-gradient about-section">
+  <div class="container">
+    <div class="section-head">
+      <div class="subtitle">Services</div>
+      <h2>We bring happiness to your home</h2>
+    </div>
+
+    <div class="row">
+
+      <!-- About Images -->
+      <div class="d-none d-lg-block col-lg-6 about-images">
+        <div class="about-img-wrapper about-img-1">
+          <img class="d-block w-100" src="img/about-01.jpg" alt="">
+        </div>
+        <div class="about-img-wrapper about-img-2">
+          <img class="d-block w-100" src="img/about-02.jpg" alt="">
+        </div>
+      </div>
+      
+      <div class="col-lg-6">
+
+        <!-- Service Item 1 -->
+        <div class="service-item" data-aos="fade-left">
+          <h4>Flower delivery with care and attention</h4>
+          <p>Lorem ipsum dolor sit amet, dico tempor omittantur in pri. Mei vidit ubique labitur te. Simul animal ad mea, no mea audire aperiam ocurreret.</p>
+        </div>
+
+        <!-- Service Item 2 -->
+        <div class="service-item" data-aos="fade-left" data-aos-delay="200">
+          <h4>Floral arrangements for any event</h4>
+          <p>Simul animal ad mea, no mea audire aperiam ocurreret, an aperiam noluisse cum. Cum eruditi volutpat et, vis ei ignota officiis adipiscing.</p>
+        </div>
+
+        <!-- Service Item 3 -->
+        <div class="service-item" data-aos="fade-left" data-aos-delay="400">
+          <h4>Fresh flowers directly from our flower shop</h4>
+          <p>Habeo nominavi aliquando et per, volutpat ullamcorper complectitur mel cu, pro id consul regione feugiat. Graeco semper iriure eos et, ius an etiam verear eripuit.</p>
+        </div>
+
+        <!-- Service Item 4 -->
+        <div class="service-item" data-aos="fade-left" data-aos-delay="600">
+          <h4>Bouquets for all occasions</h4>
+          <p>Alterum utroque maluisset ea has, sit te purto posse detracto, nusquam consulatu assentior usu ad. No soleat menandri mel, usu et malorum cotidieque. No sit inani pertinacia.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-block recommendations-section">
+  <div class="container">
+    <div class="section-head">
+      <div class="subtitle">Shop</div>
+      <h2>Our Seasonal Recommendations</h2>
+    </div>
+
+    <div class="row products related-products">
+  <div class="col-xl-3 col-lg-4 col-sm-6">
+    <!-- Product 1 -->
+    <div class="product" data-aos="fade-up">
+      <div class="product-badge badge-best-seller">Best Seller</div>
+      <a href="product.html" class="product-details">
+        <span class="product-img">
+          <img class="d-block w-100" src="img/product-01.jpg" alt="">
+        </span>
+        <span class="product-name">Spring Magic</span>
+      </a>
+
+      <div class="product-price">$65.00</div>
+      <div class="product-actions">
+        <input type="number" value="1" min="1" class="form-control" />
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-3 col-lg-4 col-sm-6">
+    <!-- Product 2 -->
+    <div class="product" data-aos="fade-up" data-aos-delay="200">
+      <div class="product-badge badge-offer">Special Offer</div>
+      <a href="product.html" class="product-details">
+        <span class="product-img">
+          <img class="d-block w-100" src="img/product-02.jpg" alt="">
+        </span>
+        <span class="product-name">Summer Fresh</span>
+      </a>
+
+      <div class="product-price">
+        <del>$59.00</del> $49.00</div>
+      <div class="product-actions">
+        <input type="number" value="1" min="1" class="form-control" />
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-none d-lg-block col-xl-3 col-lg-4">
+    <!-- Product 3 -->
+    <div class="product" data-aos="fade-up" data-aos-delay="400">
+      <a href="product.html" class="product-details">
+        <span class="product-img">
+          <img class="d-block w-100" src="img/product-05.jpg" alt="">
+        </span>
+        <span class="product-name">Easter Flowers</span>
+      </a>
+
+      <div class="product-price">$72.00</div>
+      <div class="product-actions">
+        <input type="number" value="1" min="1" class="form-control" />
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-none d-xl-block col-xl-3">
+    <!-- Product 4 -->
+    <div class="product" data-aos="fade-up" data-aos-delay="600">
+      <div class="product-badge badge-sold-out">Sold Out</div>
+      <a href="product.html" class="product-details">
+        <span class="product-img">
+          <img class="d-block w-100" src="img/product-03.jpg" alt="">
+        </span>
+        <span class="product-name">To Mum With Love</span>
+      </a>
+
+      <div class="product-price">$62.00</div>
+      <div class="product-actions">
+        <input type="number" value="1" min="1" class="form-control" />
+        <a href="#" class="btn btn-primary disabled">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+<!-- end of page content-->
+
+<footer class="footer">
+  <div class="footer-info">
+    <div class="container">
+      <div class="row footer-info-row">
+
+        <!-- General Info Column -->
+        <div class="col-lg-3 col-sm-6 footer-info-block">
+          <h6>Flower Shop HTML Template</h6>
+          <p>This elegant template is carefully designed for your Flower Boutique. It is fully responsive and optimized for retina displays, so your website will look wonderful on any platform.</p>
+          <p>Made with <span class="love">❤</span> by <a target="_blank" href="https://themelabs.co.uk/"><span class="underline-hover">ThemeLabs</span></a>
+          </p>
+        </div>
+
+        <!-- Contacts Column -->
+        <div class="col-lg-3 col-sm-6 footer-info-block footer-contacts">
+          <h6>Contacts</h6>
+
+          <p>2121 Broadway, New York, NY 10023<br>
+            1-234-567-890<br>
+            1-987-654-321<br>
+            <a href="#"><span class="underline-hover">contact@yourcompany.com</span></a>
+          </p>
+
+          <ul class="footer-social-links">
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          </ul>
+        </div>
+
+        <!-- More Info Column -->
+        <div class="col-lg-3 col-sm-6 footer-info-block">
+          <h6>More Info</h6>
+          <ul class="footer-links">
+            <li><a href="#"><span class="underline-hover">Shipping</span></a>
+            <li><a href="#"><span class="underline-hover">Returns & Refunds</span></a>
+            <li><a href="#"><span class="underline-hover">FAQ</span></a>
+            <li><a href="#"><span class="underline-hover">Work at Jolie Flowers</span></a>
+            <li><a href="#"><span class="underline-hover">Flower Care</span></a>
+            <li><a href="#"><span class="underline-hover">Privacy Policy</span></a>
+            <li><a href="#"><span class="underline-hover">Terms & Conditions</span></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copy">&copy; Copyright - Jolie Flowers Ltd.</div>
+</footer>
+
+<div class="phone-popup" id="phonePopup">
+  <p>Need help? Give us a call</p>
+  <div class="phone-number"><ion-icon name="md-call"></ion-icon>1-234-567-890</div>
+  <a href="#" class="close-link" id="closePhonePopup"><ion-icon name="md-close"></ion-icon></a>
+</div>
+
+<section class="subscribe-popup" id="subscribePopup">
+  <div class="container">
+    <h4>Sign up and save 10% on your first order</h4>
+    <p>And hear first about exciting news and promotions!</p>
+
+    <div class="subscribe-popup-form">
+      <div class="form-group">
+        <input type="email" placeholder="Email *" class="form-control newsletter-input">
+      </div>
+      <button type="submit" class="btn btn-primary">Sign Up</button>
+    </div>
+  </div>
+  <a href="#" class="close-link" id="closeSubscribePopup"><ion-icon name="md-close"></ion-icon></a>
+</section>
+
+
+
+
+
+<script src="scripts.min.js"></script>
+
+
+<script src="https://unpkg.com/ionicons@4.2.5/dist/ionicons.js"></script> 
+
+</body>
+</html>
