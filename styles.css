@@ -11094,7 +11094,7 @@ html::-webkit-scrollbar-track {
     height: 48px;
 }
 .jolie-flowers .footer-social-links li {
-    margin-right: 48px;
+    /* margin-right: 48px; */
 }
 .jolie-flowers .footer-social-links li a {
     font-size: 48px;
