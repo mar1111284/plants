@@ -10623,7 +10623,7 @@ html::-webkit-scrollbar-track {
 }
 .jolie-flowers .subtitle {
     text-align: center;
-    color: #dd4848;
+    color: var(--green);
     font-size: 14px;
     margin: 0 0 12px;
     text-transform: uppercase;
@@ -10703,8 +10703,8 @@ html::-webkit-scrollbar-track {
 }
 .jolie-flowers .btn-primary {
     color: #fff;
-    background-color: #dd4848;
-    border: 1px solid #dd4848;
+    background-color: var(--green);
+    border: 1px solid var(--green);
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -10861,7 +10861,7 @@ html::-webkit-scrollbar-track {
     }
 }
 .jolie-flowers .cart-items-number {
-    background: #dd4848;
+    background: var(--green);
     color: #fff;
     border-radius: 50%;
     min-width: 16px;
@@ -10973,7 +10973,7 @@ html::-webkit-scrollbar-track {
     position: relative;
 }
 .jolie-flowers .nav-list-mobile a.active {
-    color: #dd4848;
+    color: var(--green);
 }
 .jolie-flowers .phone-info-mobile {
     color: #fff;
@@ -11007,7 +11007,7 @@ html::-webkit-scrollbar-track {
     }
 }
 .jolie-flowers .footer-info .love {
-    color: #dd4848;
+    color: var(--green);
 }
 .jolie-flowers .footer-info a {
     color: #2b2b2b;
@@ -11038,6 +11038,7 @@ html::-webkit-scrollbar-track {
 .jolie-flowers .footer-info-row {
     margin-right: -30px;
     margin-left: -30px;
+    justify-content: center;
 }
 .jolie-flowers .footer-info-block {
     border-top: 1px solid #d8e3eb;
@@ -11148,7 +11149,7 @@ html::-webkit-scrollbar-track {
     color: #fff;
     border-radius: 50%;
     line-height: 46px;
-    background: url(img/chat.png) no-repeat center #dd4848;
+    background: url(img/chat.png) no-repeat center var(--green);
     background-size: 36px 36px;
 }
 .jolie-flowers a.chat-link.visible {
@@ -11194,7 +11195,7 @@ html::-webkit-scrollbar-track {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    border-top: 5px solid #dd4848;
+    border-top: 5px solid var(--green);
     -webkit-animation: rotate 1.2s infinite linear;
     animation: rotate 1.2s infinite linear;
 }
@@ -11434,7 +11435,7 @@ html::-webkit-scrollbar-track {
     }
 }
 .jolie-flowers .top-banner-text span {
-    color: #dd4848;
+    color: var(--green);
 }
 .jolie-flowers .about-section {
     overflow: hidden;
@@ -11636,8 +11637,8 @@ html::-webkit-scrollbar-track {
 }
 .jolie-flowers .instagram-details-icons a:hover {
     text-decoration: none;
-    background: #dd4848;
-    border-color: #dd4848;
+    background: var(--green);
+    border-color: var(--green);
     color: #fff;
 }
 .jolie-flowers .contact-item {
@@ -11910,7 +11911,7 @@ html::-webkit-scrollbar-track {
     padding: 0 6px 0 10px;
     height: 27px;
     line-height: 27px;
-    background: #dd4848;
+    background: var(--green);
     color: #fff;
     font-size: 13px;
 }
@@ -11919,7 +11920,7 @@ html::-webkit-scrollbar-track {
     width: 12px;
     height: 27px;
     border-right: 12px solid transparent;
-    border-top: 27px solid #dd4848;
+    border-top: 27px solid var(--green);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     position: absolute;
@@ -11927,10 +11928,10 @@ html::-webkit-scrollbar-track {
     right: -12px;
 }
 .jolie-flowers .product-badge.badge-best-seller {
-    background: #dd4848;
+    background: var(--green);
 }
 .jolie-flowers .product-badge.badge-best-seller:after {
-    border-top-color: #dd4848;
+    border-top-color: var(--green);
 }
 .jolie-flowers .product-badge.badge-sold-out {
     background: #9c9c9c;
@@ -11978,8 +11979,8 @@ html::-webkit-scrollbar-track {
 .jolie-flowers .product-tabs .nav-item.show .nav-link,
 .jolie-flowers .product-tabs .nav-link.active {
     color: #fff;
-    background-color: #dd4848;
-    border-color: #dd4848;
+    background-color: var(--green);
+    border-color: var(--green);
 }
 .jolie-flowers .product-tab-content {
     padding-top: 48px;
@@ -12016,7 +12017,7 @@ html::-webkit-scrollbar-track {
 }
 .jolie-flowers .product-tab-content ul.simple-list li:before {
     content: "•";
-    color: #dd4848;
+    color: var(--green);
     display: inline-block;
     width: 16px;
     min-width: 16px;
@@ -12320,7 +12321,7 @@ html::-webkit-scrollbar-track {
     margin-bottom: 6px;
 }
 .jolie-flowers .in-stock-msg.warning {
-    color: #dd4848;
+    color: var(--green);
 }
 .jolie-flowers .in-stock-msg.success {
     color: #0b7b0b;
@@ -12395,7 +12396,7 @@ html::-webkit-scrollbar-track {
 .jolie-flowers .info-main .highlighted-text {
     margin-left: 0;
     padding-left: 36px;
-    border-left: 5px solid #dd4848;
+    border-left: 5px solid var(--green);
     font-style: italic;
 }
 @media (min-width: 576px) {
@@ -12417,7 +12418,7 @@ html::-webkit-scrollbar-track {
 }
 .jolie-flowers .info-main ul li:before {
     content: "•";
-    color: #dd4848;
+    color: var(--green);
     display: inline-block;
     width: 16px;
     margin-left: -16px;
