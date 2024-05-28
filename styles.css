@@ -11088,15 +11088,16 @@ html::-webkit-scrollbar-track {
     display: -ms-flexbox;
     display: flex;
     list-style: none;
+    justify-content: center;
     margin: 0;
     padding: 0;
-    height: 24px;
+    height: 48px;
 }
 .jolie-flowers .footer-social-links li {
-    margin-right: 24px;
+    margin-right: 48px;
 }
 .jolie-flowers .footer-social-links li a {
-    font-size: 24px;
+    font-size: 48px;
     color: #777;
 }
 .jolie-flowers .footer-social-links li a:hover {
