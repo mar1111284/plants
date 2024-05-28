@@ -1,280 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>HTML Template For Your Flower Boutique</title>
+   <head>
+      <title>HTML Template For Your Flower Boutique</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content='width=device-width, initial-scale=1, width=device-width'>
+      <meta name="description" content="Responsive Bootstrap 4 Template For Your Flower Shop">
+      <meta name="keywords" content="flower, shop, ecommerce, florist, bouquet, boutique, online, store, bootstrap, responsive, decoration, bouquet shop, decoration shop, flower boutique, flower shop, flower store, flowers">
+      <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Raleway:400" rel="stylesheet">
+      <!-- <link rel="stylesheet" href="styles.min.css"> -->
+      <link rel="stylesheet" href="styles.css">
+      <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+      <link rel="shortcut icon" href="img/favicon.ico">
+   </head>
+   <body class="jolie-flowers">
+      <div class="loading-screen" id="loadingScreen">
+         <div class="loader">Loading...</div>
+      </div>
+      <nav class="navbar navbar-expand-md top-nav">
+         <div class="container">
+            <!-- Left Side Nav Items -->
+            <div class="nav-col">
+               <!-- Navbar toggler. Shown for mobile devices (https://getbootstrap.com/docs/4.0/components/navbar/#toggler) -->
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#topNav"
+                  aria-controls="topNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  >
+                  <ion-icon name="menu"></ion-icon>
+               </button>
+               <div class="collapse navbar-collapse" id="topNav">
+                  <div>
+                     <!-- Mobile Nav Close Icon -->
+                     <a href="#" class="close-navbar-mobile" data-toggle="collapse" data-target="#topNav">
+                        <ion-icon name="md-close"></ion-icon>
+                     </a>
+                     <!-- Desctop Nav -->
+                     <ul class="nav-list d-none d-md-flex">
+                        <li class="d-none d-lg-block">
+                           <a href="index.html"><span class="underline-hover">Home</span></a>
+                        </li>
+                        <li>
+                           <a href="shop.html"><span class="underline-hover">Shop</span></a>
+                        </li>
+                        <li class="dropdown">
+                           <a href="#" 
+                              class="dropdown-toggle" 
+                              id="navOtherPages" 
+                              data-toggle="dropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                              ><span class="underline-hover">Pages</span></a>
+                           <div class="dropdown-menu subnav" aria-labelledby="navOtherPages">
+                              <a class="dropdown-item" href="index.html"><span class="underline-hover">Home</span></a>
+                              <a class="dropdown-item" href="shop.html"><span class="underline-hover">Shop</span></a>
+                              <a class="dropdown-item" href="product.html"><span class="underline-hover">Product</span></a>
+                              <!-- <a class="dropdown-item" href="cart.html"><span class="underline-hover">Cart</span></a> -->
+                              <!-- <a class="dropdown-item" href="cart-empty.html"><span class="underline-hover">Empty Cart</span></a> -->
+                              <a class="dropdown-item" href="contacts.html"><span class="underline-hover">Contacts</span></a>
+                              <a class="dropdown-item" href="info.html"><span class="underline-hover">Information</span></a>
+                           </div>
+                        </li>
+                     </ul>
+                     <!-- Mobile Nav -->
+                     <div class="d-md-none mobile-nav-block">
+                        <ul class="nav-list-mobile">
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="shop.html">Shop</a></li>
+                           <li><a href="product.html">Product</a></li>
+                           <!-- <li><a href="cart.html">Cart</a></li> -->
+                           <!-- <li><a href="cart-empty.html">Empty Cart</a></li> -->
+                           <li><a href="contacts.html">Contacts</a></li>
+                           <li><a href="info.html">Information</a></li>
+                        </ul>
+                        <div class="phone-info-mobile">
+                           <ion-icon name="md-call"></ion-icon>
+                           1-234-567-890
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Logo -->
+            <a class="nav-logo" href="./">Jolie Flowers</a>
+            <!-- Right Side Nav Items -->
+            <div class="nav-col">
+               <ul class="nav-list nav-list-right">
+                  <li class="d-none d-lg-block">
+                     <a href="#" id="getDiscountLink"><span class="underline-hover">Get 10% Off</span></a>
+                  </li>
+                  <li class="d-none d-md-block">
+                     <a href="#" id="getPhoneNumber">
+                        <ion-icon name="md-call"></ion-icon>
+                     </a>
+                  </li>
+                  <li class="cart-nav-item">
+                     <a href="cart.html">
+                        <ion-icon name="ios-cart"></ion-icon>
+                        <span class="cart-items-number">3</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content='width=device-width, initial-scale=1, width=device-width'>
-  <meta name="description" content="Responsive Bootstrap 4 Template For Your Flower Shop">
-  <meta name="keywords" content="flower, shop, ecommerce, florist, bouquet, boutique, online, store, bootstrap, responsive, decoration, bouquet shop, decoration shop, flower boutique, flower shop, flower store, flowers">
-
-  <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet">  
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400" rel="stylesheet">
-
-  
-
-  
-  <link rel="stylesheet" href="styles.min.css">
-  
-
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-  <link rel="shortcut icon" href="img/favicon.ico">
-</head>
-
-<body class="jolie-flowers">
-
-<div class="loading-screen" id="loadingScreen">
-  <div class="loader">Loading...</div>
-</div>
-
-<nav class="navbar navbar-expand-md top-nav">
-  <div class="container">
-    <!-- Left Side Nav Items -->
-    <div class="nav-col">
-
-      <!-- Navbar toggler. Shown for mobile devices (https://getbootstrap.com/docs/4.0/components/navbar/#toggler) -->
-      <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#topNav"
-      aria-controls="topNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-      >
-        <ion-icon name="menu"></ion-icon>
-      </button>
-
-      <div class="collapse navbar-collapse" id="topNav">
-        <div>
-          <!-- Mobile Nav Close Icon -->
-          <a href="#" class="close-navbar-mobile" data-toggle="collapse" data-target="#topNav">
-            <ion-icon name="md-close"></ion-icon>
-          </a>
-
-          <!-- Desctop Nav -->
-          <ul class="nav-list d-none d-md-flex">
-            <li class="d-none d-lg-block">
-              <a href="index.html"><span class="underline-hover">Home</span></a>
-            </li>
-            <li>
-              <a href="shop.html"><span class="underline-hover">Shop</span></a>
-            </li>
-            <li class="dropdown">
-              <a href="#" 
-                class="dropdown-toggle" 
-                id="navOtherPages" 
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                ><span class="underline-hover">Pages</span></a>
-    
-              <div class="dropdown-menu subnav" aria-labelledby="navOtherPages">
-                <a class="dropdown-item" href="index.html"><span class="underline-hover">Home</span></a>
-                <a class="dropdown-item" href="shop.html"><span class="underline-hover">Shop</span></a>
-                <a class="dropdown-item" href="product.html"><span class="underline-hover">Product</span></a>
-                <a class="dropdown-item" href="cart.html"><span class="underline-hover">Cart</span></a>
-                <a class="dropdown-item" href="cart-empty.html"><span class="underline-hover">Empty Cart</span></a>
-                <a class="dropdown-item" href="contacts.html"><span class="underline-hover">Contacts</span></a>
-                <a class="dropdown-item" href="info.html"><span class="underline-hover">Information</span></a>
-              </div>
-            </li>
-          </ul>
-    
-          <!-- Mobile Nav -->
-          <div class="d-md-none mobile-nav-block">
-            <ul class="nav-list-mobile">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="shop.html">Shop</a></li>
-              <li><a href="product.html">Product</a></li>
-              <li><a href="cart.html">Cart</a></li>
-              <li><a href="cart-empty.html">Empty Cart</a></li>
-              <li><a href="contacts.html">Contacts</a></li>
-              <li><a href="info.html">Information</a></li>
+      <!-- info page content-->
+      <section class="page-content">
+         <div class="container info-main">
+            <h2>Privacy Policy</h2>
+            <p>Lorem ipsum dolor sit amet, cu nec fugit ignota forensibus, assum quidam vivendo ius ea. Eu eius interesset vix, enim invenire an vim, sea eu quis idque facilis. Eum ex iriure bonorum vituperata, sea eruditi patrioque ut, quaerendum sadipscing ex pri. Te agam prompta eum, sit ea omnes mollis integre.</p>
+            <p>Duo labitur luptatum deterruisset id. Id usu quas prompta, sed suas insolens ei. Eum in graece evertitur mnesarchum, clita adolescens no ius, vim consul omnesque pericula ad. Sit dolorem invenire dissentias no, nam ad dicant tamquam, melius utamur interesset in pri.</p>
+            <p class="highlighted-text">Ad malis minimum dissentiet cum, cum nonumy facilisis dissentias ea. Magna vivendo qui ne. Ut vis dicat graeci persecuti. Has et graeco nonumes incorrupte, sit eirmod regione feugait no.</p>
+            <p>His doctus iudicabit intellegam ei, ex erat alienum intellegebat eam, has at errem suscipiantur. Ne noster meliore eos, no mel delicata consectetuer consequuntur, sit et atqui facilisis urbanitas. Minim perfecto sea ea. At ius elitr postulant gubergren, nam imperdiet maiestatis ei, ad idque iriure pro. Ridens appetere eu nec. Ne pri causae euismod necessitatibus, autem vocent omittam his te.</p>
+            <h3>The data we collect about you</h3>
+            <p>Qui oratio veniam soluta id. Pri ne minim suscipit voluptaria, omnis interpretaris ea mei, cu mel delectus efficiendi. Te sea exerci iudicabit. Ei eirmod iudicabit voluptatibus mei, sed minim veritus invenire eu. Ea meis efficiantur consequuntur sit, ei cum prima consectetuer. Mea erant voluptaria in, eu eam prima harum timeam, sint noluisse assentior no ius. Sint liber dolorum cu nec.</p>
+            <ul>
+               <li><strong>Identity Data</strong> includes postulant gubergren, nam imperdiet maiestatis ei, ad idque iriure pro</li>
+               <li><strong>Contact Data</strong> includes eirmod iudicabit voluptatibus mei, sed minim veritus invenire eu</li>
+               <li><strong>Technical Data</strong> includes eum ex iriure bonorum vituperata, sea eruditi patrioque ut, quaerendum sadipscing ex pri, te agam prompta eum, sit ea omnes mollis integre, mea erant voluptaria in, eu eam prima harum timeam, sint noluisse assentior no ius. Sint liber dolorum cu nec</li>
+               <li><strong>Profile Data</strong> includes suscipit voluptaria, omnis interpretaris ea mei, cu mel delectus efficiendi</li>
+               <li><strong>Usage Data</strong> includes nec fugit ignota forensibus, assum quidam vivendo ius ea</li>
+               <li><strong>Marketing and Communications Data</strong> includes magna vivendo qui ne. Ut vis dicat graeci persecuti, has et graeco nonumes incorrupte, sit eirmod regione feugait no</li>
             </ul>
-            <div class="phone-info-mobile"><ion-icon name="md-call"></ion-icon>1-234-567-890</div>
-          </div>
-        </div>
+            <p>Duo labitur luptatum deterruisset id. Id usu quas prompta, sed suas insolens ei. Eum in graece evertitur mnesarchum, clita adolescens no ius, vim consul omnesque pericula ad. Sit dolorem invenire dissentias no, nam ad dicant tamquam, melius utamur interesset in pri.</p>
+         </div>
+      </section>
+      <!-- end of page content-->
+      <footer class="footer">
+         <div class="footer-info">
+            <div class="container">
+               <div class="row footer-info-row">
+                  <!-- General Info Column -->
+                  <div class="col-lg-3 col-sm-6 footer-info-block">
+                     <h6>Flower Shop HTML Template</h6>
+                     <p>This elegant template is carefully designed for your Flower Boutique. It is fully responsive and optimized for retina displays, so your website will look wonderful on any platform.</p>
+                     <p>Made with <span class="love">❤</span> by <a target="_blank" href="https://themelabs.co.uk/"><span class="underline-hover">ThemeLabs</span></a>
+                     </p>
+                  </div>
+                  <!-- Contacts Column -->
+                  <div class="col-lg-3 col-sm-6 footer-info-block footer-contacts">
+                     <h6>Contacts</h6>
+                     <p>2121 Broadway, New York, NY 10023<br>
+                        1-234-567-890<br>
+                        1-987-654-321<br>
+                        <a href="#"><span class="underline-hover">contact@yourcompany.com</span></a>
+                     </p>
+                     <ul class="footer-social-links">
+                        <li>
+                           <a href="#">
+                              <ion-icon name="logo-instagram"></ion-icon>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <!-- More Info Column -->
+                  <div class="col-lg-3 col-sm-6 footer-info-block">
+                     <h6>More Info</h6>
+                     <ul class="footer-links">
+                        <li><a href="#"><span class="underline-hover">Shipping</span></a>
+                        <li><a href="#"><span class="underline-hover">Returns & Refunds</span></a>
+                        <li><a href="#"><span class="underline-hover">FAQ</span></a>
+                        <li><a href="#"><span class="underline-hover">Work at Jolie Flowers</span></a>
+                        <li><a href="#"><span class="underline-hover">Flower Care</span></a>
+                        <li><a href="#"><span class="underline-hover">Privacy Policy</span></a>
+                        <li><a href="#"><span class="underline-hover">Terms & Conditions</span></a>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-copy">&copy; Copyright - Jolie Flowers Ltd.</div>
+      </footer>
+
+      <div class="phone-popup" id="phonePopup">
+         <p>Need help? Give us a call</p>
+         <div class="phone-number">
+            <ion-icon name="md-call"></ion-icon>
+            1-234-567-890
+         </div>
+         <a href="#" class="close-link" id="closePhonePopup">
+            <ion-icon name="md-close"></ion-icon>
+         </a>
       </div>
-    </div>
 
-    <!-- Logo -->
-    <a class="nav-logo" href="./">Jolie Flowers</a>
-
-    <!-- Right Side Nav Items -->
-    <div class="nav-col">
-      <ul class="nav-list nav-list-right">
-        <li class="d-none d-lg-block">
-          <a href="#" id="getDiscountLink"><span class="underline-hover">Get 10% Off</span></a>
-        </li>
-        <li class="d-none d-md-block">
-          <a href="#" id="getPhoneNumber"><ion-icon name="md-call"></ion-icon></a>
-        </li>
-        <li class="cart-nav-item">
-          <a href="cart.html">
-            <ion-icon name="ios-cart"></ion-icon>
-            <span class="cart-items-number">3</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<section class="top-info-links bg-darken">
-  <div class="container">
-    <div class="row top-info-links-list">
-      <div class="col-4 text-left">
-        <a href="#"><span class="underline-hover">Sign Up To Enjoy 10% Off</span></a>
-      </div>
-      <div class="col-4 text-center">
-        <a href="#"><span class="underline-hover">Free Delivery Over £75</span></a>
-      </div>
-      <div class="col-4 text-right">
-        <a href="#"><span class="underline-hover">20% Student Discount</span></a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- info page content-->
-<section class="page-content">
-  <div class="container info-main">
-    <h2>Privacy Policy</h2>
-    
-    <p>Lorem ipsum dolor sit amet, cu nec fugit ignota forensibus, assum quidam vivendo ius ea. Eu eius interesset vix, enim invenire an vim, sea eu quis idque facilis. Eum ex iriure bonorum vituperata, sea eruditi patrioque ut, quaerendum sadipscing ex pri. Te agam prompta eum, sit ea omnes mollis integre.</p>
-
-    <p>Duo labitur luptatum deterruisset id. Id usu quas prompta, sed suas insolens ei. Eum in graece evertitur mnesarchum, clita adolescens no ius, vim consul omnesque pericula ad. Sit dolorem invenire dissentias no, nam ad dicant tamquam, melius utamur interesset in pri.</p>
-
-    <p class="highlighted-text">Ad malis minimum dissentiet cum, cum nonumy facilisis dissentias ea. Magna vivendo qui ne. Ut vis dicat graeci persecuti. Has et graeco nonumes incorrupte, sit eirmod regione feugait no.</p>
-
-    <p>His doctus iudicabit intellegam ei, ex erat alienum intellegebat eam, has at errem suscipiantur. Ne noster meliore eos, no mel delicata consectetuer consequuntur, sit et atqui facilisis urbanitas. Minim perfecto sea ea. At ius elitr postulant gubergren, nam imperdiet maiestatis ei, ad idque iriure pro. Ridens appetere eu nec. Ne pri causae euismod necessitatibus, autem vocent omittam his te.</p>
-
-    <h3>The data we collect about you</h3>
-
-    <p>Qui oratio veniam soluta id. Pri ne minim suscipit voluptaria, omnis interpretaris ea mei, cu mel delectus efficiendi. Te sea exerci iudicabit. Ei eirmod iudicabit voluptatibus mei, sed minim veritus invenire eu. Ea meis efficiantur consequuntur sit, ei cum prima consectetuer. Mea erant voluptaria in, eu eam prima harum timeam, sint noluisse assentior no ius. Sint liber dolorum cu nec.</p>
-
-    <ul>
-      <li><strong>Identity Data</strong> includes postulant gubergren, nam imperdiet maiestatis ei, ad idque iriure pro</li>
-      <li><strong>Contact Data</strong> includes eirmod iudicabit voluptatibus mei, sed minim veritus invenire eu</li>
-      <li><strong>Technical Data</strong> includes eum ex iriure bonorum vituperata, sea eruditi patrioque ut, quaerendum sadipscing ex pri, te agam prompta eum, sit ea omnes mollis integre, mea erant voluptaria in, eu eam prima harum timeam, sint noluisse assentior no ius. Sint liber dolorum cu nec</li>
-      <li><strong>Profile Data</strong> includes suscipit voluptaria, omnis interpretaris ea mei, cu mel delectus efficiendi</li> 
-      <li><strong>Usage Data</strong> includes nec fugit ignota forensibus, assum quidam vivendo ius ea</li>
-      <li><strong>Marketing and Communications Data</strong> includes magna vivendo qui ne. Ut vis dicat graeci persecuti, has et graeco nonumes incorrupte, sit eirmod regione feugait no</li>
-    </ul>
-
-    <p>Duo labitur luptatum deterruisset id. Id usu quas prompta, sed suas insolens ei. Eum in graece evertitur mnesarchum, clita adolescens no ius, vim consul omnesque pericula ad. Sit dolorem invenire dissentias no, nam ad dicant tamquam, melius utamur interesset in pri.</p>
-  </div>
-</section>
-
-<!-- end of page content-->
-
-<footer class="footer">
-  <div class="footer-info">
-    <div class="container">
-      <div class="row footer-info-row">
-
-        <!-- General Info Column -->
-        <div class="col-lg-3 col-sm-6 footer-info-block">
-          <h6>Flower Shop HTML Template</h6>
-          <p>This elegant template is carefully designed for your Flower Boutique. It is fully responsive and optimized for retina displays, so your website will look wonderful on any platform.</p>
-          <p>Made with <span class="love">❤</span> by <a target="_blank" href="https://themelabs.co.uk/"><span class="underline-hover">ThemeLabs</span></a>
-          </p>
-        </div>
-
-        <!-- Contacts Column -->
-        <div class="col-lg-3 col-sm-6 footer-info-block footer-contacts">
-          <h6>Contacts</h6>
-
-          <p>2121 Broadway, New York, NY 10023<br>
-            1-234-567-890<br>
-            1-987-654-321<br>
-            <a href="#"><span class="underline-hover">contact@yourcompany.com</span></a>
-          </p>
-
-          <ul class="footer-social-links">
-            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-            <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
-          </ul>
-        </div>
-
-        <!-- More Info Column -->
-        <div class="col-lg-3 col-sm-6 footer-info-block">
-          <h6>More Info</h6>
-          <ul class="footer-links">
-            <li><a href="#"><span class="underline-hover">Shipping</span></a>
-            <li><a href="#"><span class="underline-hover">Returns & Refunds</span></a>
-            <li><a href="#"><span class="underline-hover">FAQ</span></a>
-            <li><a href="#"><span class="underline-hover">Work at Jolie Flowers</span></a>
-            <li><a href="#"><span class="underline-hover">Flower Care</span></a>
-            <li><a href="#"><span class="underline-hover">Privacy Policy</span></a>
-            <li><a href="#"><span class="underline-hover">Terms & Conditions</span></a>
-          </ul>
-        </div>
-
-         <!-- Newsletter Form Column -->
-        <div class="col-lg-3 col-sm-6 footer-info-block footer-subscribe">
-          <h6>Don't want to miss out?</h6>
-
-          <p>Sign up for our newletter and hear first about exciting promotions.</p>
-
-          <div class="form-group">
-            <input type="email" placeholder="Email *" class="form-control newsletter-input">
-          </div>
-
-          <button type="submit" class="btn btn-full-width btn-primary">Sign Up</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer-copy">&copy; Copyright - Jolie Flowers Ltd.</div>
-</footer>
-
-<!-- "Live Chat" icon in the bottom right-hand corner -->
-<div class="chat">
-  <a href="#"
-     class="chat-link"
-     data-toggle="tooltip"
-     data-html="true"
-     data-placement="left"
-     title="Live Chat.<br> Ask us anything!"
-    ></a>
-</div>
-
-<div class="phone-popup" id="phonePopup">
-  <p>Need help? Give us a call</p>
-  <div class="phone-number"><ion-icon name="md-call"></ion-icon>1-234-567-890</div>
-  <a href="#" class="close-link" id="closePhonePopup"><ion-icon name="md-close"></ion-icon></a>
-</div>
-
-<section class="subscribe-popup" id="subscribePopup">
-  <div class="container">
-    <h4>Sign up and save 10% on your first order</h4>
-    <p>And hear first about exciting news and promotions!</p>
-
-    <div class="subscribe-popup-form">
-      <div class="form-group">
-        <input type="email" placeholder="Email *" class="form-control newsletter-input">
-      </div>
-      <button type="submit" class="btn btn-primary">Sign Up</button>
-    </div>
-  </div>
-  <a href="#" class="close-link" id="closeSubscribePopup"><ion-icon name="md-close"></ion-icon></a>
-</section>
-
-
-
-
-
-<script src="scripts.min.js"></script>
-
-
-<script src="https://unpkg.com/ionicons@4.2.5/dist/ionicons.js"></script> 
-
-</body>
+      <script src="scripts.min.js"></script>
+      <script src="https://unpkg.com/ionicons@4.2.5/dist/ionicons.js"></script> 
+   </body>
 </html>
